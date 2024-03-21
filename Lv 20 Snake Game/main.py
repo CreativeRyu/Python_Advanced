@@ -64,5 +64,4 @@ while game_is_on:
 
 #TODO 7. Detect collision with tail
 
-
 screen.exitonclick()

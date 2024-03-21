@@ -1,7 +1,7 @@
 from turtle import Turtle
 ALIGNMENT = "center"
 FONT = ('Courier', 20, 'bold')
-SNAKE_DATA = "Lv 20 Snake Game\data.txt"
+SNAKE_DATA = "./Lv 20 Snake Game/data.txt"
 
 
 class ScoreBoard(Turtle):

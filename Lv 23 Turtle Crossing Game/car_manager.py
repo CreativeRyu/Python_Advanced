@@ -1,11 +1,9 @@
 from turtle import Turtle, Screen
 import random
 
-
 COLORS = ["#0f380f", "#306230"]
 STARTING_MOVE_DISTANCE = 5
 MOVE_INCREMENT = 10
-
 
 class CarManager(Turtle):
     def __init__(self):
@@ -25,4 +23,3 @@ class CarManager(Turtle):
     def automatic_drive(self):
         for car in self.cars:
             car.backward(STARTING_MOVE_DISTANCE)
-        

@@ -24,4 +24,4 @@ while quiz.still_has_questions():
 print("Sie haben das Quiz abgeschlossen Sir")
 print(f"Ihr finaler Punktestand beträgt {quiz.score} von {quiz.question_number} Punkten.")
 
-# für weitere Fragepools kann man auf Open Trivia DB gehen und sich Pools geerieren lassen
+# für weitere Fragepools kann man auf Open Trivia DB gehen und sich Pools generieren lassen

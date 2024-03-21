@@ -16,7 +16,6 @@ class Player(Turtle):
     def move(self):
         self.forward(MOVE_DISTANCE)
 
-
     def reach_goal(self):
         if self.ycor() == FINISH_LINE_Y:
             # Turtle resetten
